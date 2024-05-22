@@ -1032,6 +1032,22 @@ li.description-3 b {
   color: var(--text-color-light);
 }
 
+
+/* TÓPICO 1 */
+.topic-1 {
+  
+}
+
+/* TÓPICO 2 */
+.topic-2 {
+  
+}
+
+/* TÓPICO 3 */
+.topic-3 {
+  
+}
+
 .footer__copy {
   color: var(--text-color-light);
   font-size: var(--small-font-size);
