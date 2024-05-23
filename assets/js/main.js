@@ -18,7 +18,6 @@ if(navToggle){
 
 
 
-
 /*===== MENU OCULTO =====*/
 /* Validar se existe constante */
 if(navClose){
