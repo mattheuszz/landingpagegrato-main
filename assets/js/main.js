@@ -11,6 +11,14 @@ if(navToggle){
     })
 }
 
+
+/*=============== PERGUNTAS FREQUENTES ===============*/ 
+
+
+
+
+
+
 /*===== MENU OCULTO =====*/
 /* Validar se existe constante */
 if(navClose){
@@ -18,6 +26,7 @@ if(navClose){
         navMenu.classList.remove('show-menu')
     })
 }
+
 
 /*=============== REMOVER MENU MÓVEL ===============*/
 const navLink = document.querySelectorAll('.nav__link')
@@ -68,6 +77,7 @@ const sendEmail = (e) => {
 }
 
 contactForm.addEventListener('submit', sendEmail)
+
 
 /*=============== MOSTRAR SCROLL PARA CIMA ===============*/ 
 const scrollUp = () =>{
