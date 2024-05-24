@@ -1046,21 +1046,25 @@ li.description-3 b {
   color: var(--text-color-light);
 }
 
+/* TÓPICO 1, TÓPICO 2, TÓPICO 3  */
 
-/* TÓPICO 1 */
-.topic-1 {
-  
+
+.topic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Para centralizar o texto */
 }
 
-/* TÓPICO 2 */
-.topic-2 {
-  
+.topic img {
+  margin-bottom: 10px; /* Ajuste o valor conforme necessário */
 }
 
-/* TÓPICO 3 */
-.topic-3 {
-  
+.topic h4,
+.topic p {
+  margin: 5px 0; /* Ajuste o valor conforme necessário */
 }
+
 
 .footer__copy {
   color: var(--text-color-light);
