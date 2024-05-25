@@ -103,7 +103,7 @@ body {
 /*=============== Inicio da página jornada do grato ===============*/
 
 #inicio2 {
-  background-image: url('assets/imgs/bg.svg');
+  background-image: url('/assets/imgs/bg.png'); /* Caminho absoluto */
 }
 
 
@@ -1513,8 +1513,25 @@ li.description-3 b {
     background-color: var(--cor-roxo-escuro);
     color: var(--white-color);
     padding: 0.5rem 2.4rem;
-    border-radius: 13px;
+    border-radius: 8px;
   }
+
+  /* --==================== BOTÃO JORNADA DO GRATO ====================-- */
+  .nav__link-button2 {
+    background-color: var(--cor-roxo-escuro);
+    color: var(--white-color);
+    padding: 0.5rem 2.4rem;
+    border-radius: 8px;
+    justify-items: center;
+    width: 100%;
+  }
+
+  
+
+  
+  
+
+  
 
   .change-theme {
     color: var(--text-color);
