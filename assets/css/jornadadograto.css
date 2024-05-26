@@ -1142,6 +1142,22 @@ li.description-3 b {
     overflow: hidden;
   }
 
+  .topic-4, .topic-5, .topic-6 {
+    display: flex;
+    flex-direction: column; /* Alinha os itens na coluna */
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Espaçamento entre os itens */
+    max-width: 300px; /* Define uma largura máxima para os itens */
+}
+
+.topic-4 img, .topic-5 img, .topic-6 img {
+    max-width: 100%; /* Imagens responsivas */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+
   .curve svg {
     position: relative;
     top: 0;
@@ -1372,6 +1388,7 @@ li.description-3 b {
     left: 10.5rem;
   }
 }
+
 
 /* Para dispositivos maiores */
 @media screen and (min-width: 1150px) {
