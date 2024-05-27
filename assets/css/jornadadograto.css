@@ -158,6 +158,10 @@ a {
   padding-block: 4rem 2rem;
 } */
 
+.google {
+  cursor: pointer;
+}
+
 .section__title-1,
 .section__title-2 {
   position: relative;
