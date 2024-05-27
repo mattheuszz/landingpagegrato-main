@@ -214,6 +214,37 @@ a {
   bottom: 115px;
 }
 
+/*=============== E-BOOKS ===============*/
+
+.Ebook-1 {
+  height: 345px;
+  width: 241px;
+  border-radius: 16px;
+}
+
+.Ebook-2 {
+  height: 345px;
+  width: 241px;
+  border-radius: 16px;
+}
+
+.Ebook-3 {
+  height: 345px;
+  width: 241px;
+  border-radius: 16px;
+}
+
+
+
+
+.Ebook-1, .Ebook-2, .Ebook-3 {
+  
+}
+
+
+
+
+
 .nav__logo {
   display: flex;
   column-gap: .5rem;
