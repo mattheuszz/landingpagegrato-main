@@ -181,6 +181,12 @@ a {
   bottom: -4px;
 }
 
+/*=============== CTA-EBOOK ===============*/
+.Cta-Ebook {
+  height: 157px;
+  width: 674px;
+  background-color: #6C63FF;
+}
 
 .main {
   overflow: hidden;
