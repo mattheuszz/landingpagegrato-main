@@ -248,6 +248,8 @@ a {
 .box-price {
   width: 222px;
   height: 138px;
+  border-radius: 16px;
+  color: #FFFFFF;
 }
 
 
