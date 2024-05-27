@@ -220,7 +220,7 @@ a {
 .E-books_container {
   display: flex;
   justify-content: space-between; /* Ajusta o espaçamento entre os itens */
-  gap: 20px; /* Espaçamento opcional entre os itens */
+  gap: 40px; /* Espaçamento opcional entre os itens */
 }
 
 /* Estilos para cada E-book */
