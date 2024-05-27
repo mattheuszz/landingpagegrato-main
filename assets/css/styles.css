@@ -214,6 +214,7 @@ a {
   bottom: 115px;
 }
 
+
 /*=============== E-BOOKS ===============*/
 
 .Ebook-1 {
@@ -235,6 +236,17 @@ a {
   width: 241px;
   border-radius: 16px;
   color: #F1F0F5;
+}
+
+.E-books_container {
+
+}
+
+
+/*=============== BOX-PRICE ===============*/
+
+.box-price {
+
 }
 
 
