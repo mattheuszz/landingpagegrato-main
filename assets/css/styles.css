@@ -216,48 +216,47 @@ a {
 
 
 /*=============== E-BOOKS ===============*/
-
-.Ebook-1 {
-  height: 345px;
-  width: 241px;
-  border-radius: 16px;
-  background-color: #8C8CFF;
-}
-
-.Ebook-2 {
-  height: 345px;
-  width: 241px;
-  border-radius: 16px;
-  background-color: #FFB8B8;
-}
-
-.Ebook-3 {
-  height: 345px;
-  width: 241px;
-  border-radius: 16px;
-  background-color: #F1F0F5;
-}
-
+/* Container principal dos E-books */
 .E-books_container {
   display: flex;
   justify-content: space-between; /* Ajusta o espaçamento entre os itens */
-  /*gap: 20px;  Espaçamento opcional entre os itens */
+  gap: 20px; /* Espaçamento opcional entre os itens */
 }
 
-.Ebooks_container div {
-  flex: 1; /* Ajusta a largura dos itens */
-  text-align: center; /* Centraliza o conteúdo dos itens */
+/* Estilos para cada E-book */
+.Ebook-1, .Ebook-2, .Ebook-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 345px;
+  width: 241px;
+  border-radius: 16px;
+  background-color: #F1F0F5; /* Cor de fundo padrão */
 }
 
+.Ebook-1 {
+  background-color: #8C8CFF; /* Cor de fundo específica */
+}
 
-/*=============== BOX-PRICE ===============*/
+.Ebook-2 {
+  background-color: #FFB8B8; /* Cor de fundo específica */
+}
+
+.Ebook-3 {
+  background-color: #F1F0F5; /* Cor de fundo específica */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 .box-price {
-  width: 222px;
-  height: 138px;
-  border-radius: 16px;
-  color: #FFFFFF;
+  margin-top: 10px;
+  /* Outros estilos para .box-price */
 }
+
 
 
 
