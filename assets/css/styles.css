@@ -221,25 +221,32 @@ a {
   height: 345px;
   width: 241px;
   border-radius: 16px;
-  color: #8C8CFF;
+  background-color: #8C8CFF;
 }
 
 .Ebook-2 {
   height: 345px;
   width: 241px;
   border-radius: 16px;
-  color: #FFB8B8;
+  background-color: #FFB8B8;
 }
 
 .Ebook-3 {
   height: 345px;
   width: 241px;
   border-radius: 16px;
-  color: #F1F0F5;
+  background-color: #F1F0F5;
 }
 
 .E-books_container {
+  display: flex;
+  justify-content: space-between; /* Ajusta o espaçamento entre os itens */
+  /*gap: 20px;  Espaçamento opcional entre os itens */
+}
 
+.Ebooks_container div {
+  flex: 1; /* Ajusta a largura dos itens */
+  text-align: center; /* Centraliza o conteúdo dos itens */
 }
 
 
