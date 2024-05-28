@@ -214,12 +214,15 @@ a {
   bottom: 115px;
 }
 
+
 /*=============== E-BOOKS ===============*/
 /* Container principal dos E-books */
 .E-books_container {
+  
   display: flex;
   justify-content: space-between; /* Ajusta o espaçamento entre os itens */
   gap: 40px; /* Espaçamento opcional entre os itens */
+
 }
 
 /* Estilos para cada E-book */
@@ -229,7 +232,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 345px;
-  width: 100%;
+  width: 241px;
   border-radius: 16px;
   background-color: #F1F0F5; /* Cor de fundo padrão */
 }
