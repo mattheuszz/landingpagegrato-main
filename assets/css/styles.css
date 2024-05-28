@@ -214,7 +214,6 @@ a {
   bottom: 115px;
 }
 
-
 /*=============== E-BOOKS ===============*/
 /* Container principal dos E-books */
 .E-books_container {
@@ -230,7 +229,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 345px;
-  width: 241px;
+  width: 100%;
   border-radius: 16px;
   background-color: #F1F0F5; /* Cor de fundo padrão */
 }
@@ -417,7 +416,8 @@ img {
 /*=============== Inicio ===============*/
 
 .home__container,
-.home__container-2 {
+.home__container-2,
+.home__container-3 {
   padding-top: 8rem;
 }
 
@@ -1320,6 +1320,7 @@ li.description-3 b {
 
   .home__container,
   .home__container-2,
+  .home__container-3,
   .about__container,
   .projects__container {
     grid-template-columns: 350px;
@@ -1427,6 +1428,18 @@ li.description-3 b {
   .contact__social-link {
     display: flex;
     justify-content: center;
+  }
+
+    .home__container-3 {
+      flex-direction: row;
+  }
+
+  .home__info {
+      order: 1;
+  }
+
+  .home__perfil {
+      order: 2;
   }
 
   .shape-plus {
@@ -1593,14 +1606,6 @@ li.description-3 b {
     text-align: center;     /* Adicione esta linha */
   }
 
-
-  
-
-  
-  
-
-  
-
   .change-theme {
     color: var(--text-color);
   }
@@ -1623,7 +1628,8 @@ li.description-3 b {
   }
 
   .home__container,
-  .home__container-2 {
+  .home__container-2,
+  .home__container-3 {
     grid-template-columns: repeat(2, 468px);
     gap: 2rem 4rem;
     align-items: center;
