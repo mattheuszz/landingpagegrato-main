@@ -229,7 +229,7 @@ a {
 .Ebook-1, .Ebook-2, .Ebook-3 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 345px;
   width: 241px;
