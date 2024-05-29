@@ -1638,7 +1638,7 @@ li.description-3 b {
     border-radius: 8px;
   }
 
-  /* --==================== BOTÃO JORNADA DO GRATO ====================-- */
+  /* --==================== BOTÃO  ====================-- */
   .nav__link-button2 {
     background-color: var(--cor-roxo-escuro);
     color: var(--white-color);
@@ -1650,6 +1650,19 @@ li.description-3 b {
     align-items: center;     /* Adicione esta linha */
     text-align: center;     /* Adicione esta linha */
 }
+
+  .nav__link-button3 {
+    background-color: var(--cor-roxo-escuro);
+    color: var(--white-color);
+    padding: 0.5rem 2.4rem;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;          /* Adicione esta linha */
+    justify-content: center; /* Adicione esta linha */
+    align-items: center;     /* Adicione esta linha */
+    text-align: center;     /* Adicione esta linha */
+  }
+
 
   .texto-vermelho {
     display: flex;          /* Adicione esta linha */
@@ -1922,7 +1935,7 @@ li.description-3 b {
 
   .projects__card {
     padding: 1.25rem 1.25rem 2.5rem;
-  }
+  2
 
   .projects__image {
     margin-bottom: 1rem;
