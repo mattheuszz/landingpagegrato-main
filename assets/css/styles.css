@@ -277,6 +277,25 @@ h6 .titulo_e-book {
 }
 
 
+.titulo-preco {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.titulo_e-book {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.preco-rosa {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #ff69b4; /* Cor rosa, ajuste conforme necessário */
+}
+
+
 .preco-rosa {
   color: #F29698;
 }
@@ -1649,6 +1668,7 @@ li.description-3 b {
     border-radius: 8px;
   }
 
+  
   /* --==================== BOTÃO  ====================-- */
   .nav__link-button2 {
     background-color: var(--cor-roxo-escuro);
@@ -1672,7 +1692,6 @@ li.description-3 b {
     align-items: center;     /* Adicione esta linha */
     text-align: center;     /* Adicione esta linha */
   }
-
 
   .texto-vermelho {
     display: flex;          /* Adicione esta linha */
