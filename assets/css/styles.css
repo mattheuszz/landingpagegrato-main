@@ -264,6 +264,14 @@ img {
   height: 138px;
   border-radius: 16px;
   margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 15px;
+}
+
+.preco-rosa {
+  color: #F29698;
 }
 
 
@@ -1654,7 +1662,6 @@ li.description-3 b {
   .nav__link-button3 {
     background-color: var(--cor-roxo-escuro);
     color: var(--white-color);
-    padding: 0.5rem 2.4rem;
     border-radius: 8px;
     width: 50%;
     display: flex;          /* Adicione esta linha */
