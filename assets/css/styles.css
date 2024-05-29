@@ -1124,8 +1124,12 @@ li.description-3 b {
   align-items: flex-start;
 }
 
+
+/* TOPIC-3 */
 .topic {
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 768px) {
