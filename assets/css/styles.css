@@ -530,7 +530,7 @@ font-size: 20px;
 
 #instagram {
   margin-bottom: 4rem;
-  background-color: #fff;
+  background-color: #f1f0f5;
 }
 
 .home__arrow,
@@ -1171,6 +1171,12 @@ li.description-3 b {
 
 .topic {
   margin-bottom: 20px;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px; 
 }
 
 @media (max-width: 768px) {
@@ -1658,7 +1664,7 @@ li.description-3 b {
   }
 
   .active-link {
-    color: var(--title-color);l
+    color: var(--title-color);
   }
 
   .nav__link-button {
@@ -1668,6 +1674,9 @@ li.description-3 b {
     border-radius: 8px;
   }
 
+  #instagram {
+    background-color: #F1F0F5;
+  }
   
   /* --==================== BOTÃO  ====================-- */
   .nav__link-button2 {
@@ -1680,19 +1689,8 @@ li.description-3 b {
     justify-content: center; /* Adicione esta linha */
     align-items: center;     /* Adicione esta linha */
     text-align: center;     /* Adicione esta linha */
-}
-
-  .nav__link-button3 {
-    background-color: var(--cor-roxo-escuro);
-    color: var(--white-color);
-    border-radius: 8px;
-    width: 50%;
-    display: flex;          /* Adicione esta linha */
-    justify-content: center; /* Adicione esta linha */
-    align-items: center;     /* Adicione esta linha */
-    text-align: center;     /* Adicione esta linha */
   }
-
+  
   .texto-vermelho {
     display: flex;          /* Adicione esta linha */
     justify-content: center; /* Adicione esta linha */
