@@ -328,6 +328,10 @@ h6 .titulo_e-book {
   cursor: pointer;
 }
 
+.topic-1 img, .topic-2 img, .topic-3 img {
+  max-width: 80px;
+}
+
 
 /* Navegação para dispositivos móveis */
 
@@ -338,6 +342,16 @@ h6 .titulo_e-book {
     justify-content: space-between;
     gap: 40px;
     position: relative;
+  }
+
+  .topic {
+    margin-bottom: 20px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px; 
   }
 
   .nav__menu {
@@ -582,9 +596,6 @@ font-size: 20px;
   background-color: var(--black-color);
 }
 
-.home__info {
-  margin-top: 4rem;
-}
 
 .home__description {
   text-align: center;
@@ -1164,16 +1175,17 @@ li.description-3 b {
 
 /* TÓPICO 1, TÓPICO 2, TÓPICO 3  */
 .home__info {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
 }
 
 .topic {
   margin-bottom: 20px;
   align-content: center;
   align-items: center;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   gap: 5px; 
@@ -1779,6 +1791,11 @@ li.description-3 b {
   .home__info {
     margin-top: 0;
     align-self: flex-start;
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
   }
 
   .home__image,
