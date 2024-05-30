@@ -272,11 +272,14 @@ img {
   padding-bottom: 10px;
 }
 
-
 .titulo-preco {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.home__img-9 {
+  width: 60px;
 }
 
 .titulo_e-book {
