@@ -261,7 +261,7 @@ a {
 }
 
 .topic-1 img, .topic-2 img, .topic-3 img {
-  max-width: 80px;
+  width: 80px;
 }
 
 .nav__name::before {
