@@ -1314,6 +1314,7 @@ li.description-3 b {
     margin-inline: 1rem;
     justify-content: center;
     overflow: hidden;
+    padding: 20px;
   }
 
   .topic-4, .topic-5, .topic-6 {
