@@ -273,6 +273,10 @@ img {
   padding-bottom: 10px;
 }
 
+.descrição-e-book {
+  font-size: 15px;
+}
+
 .titulo-preco {
   display: flex;
   align-items: center;
@@ -281,19 +285,21 @@ img {
 
 .titulo_e-book {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
-.preco-rosa {
+.preco-rosa p {
   margin: 0;
   font-size: 1.25rem;
+  font-size: 10px;
   color: #ff69b4; /* Cor rosa, ajuste conforme necessário */
 }
 
 
 .preco-rosa {
   color: #F29698;
+  width: 40%;
 }
 
 
@@ -1708,12 +1714,13 @@ li.description-3 b {
     color: var(--white-color);
     padding: 0.5rem 2.4rem;
     border-radius: 8px;
-    width: 40%;
+    width: 45%;
     font-size: 12px;
     display: flex;          /* Adicione esta linha */
     justify-content: center; /* Adicione esta linha */
     align-items: center;     /* Adicione esta linha */
     text-align: center;     /* Adicione esta linha */
+    height: 25px;
   }
   
   .texto-vermelho {
