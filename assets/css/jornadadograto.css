@@ -320,10 +320,17 @@ a {
   padding-top: 8rem;
 }
 
-.home__container-4 {
-  padding-top: 8rem;
+#sobre-4 {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  position: relative;
 }
+
+
+
+
+
 
 .home__name {
   font-size: 30px;
