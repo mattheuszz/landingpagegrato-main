@@ -1711,8 +1711,13 @@ li.description-3 b {
     z-index: 7;
     position: relative;
     /* z-index: 3; */
+    display: flex;
+    justify-content: center;
   }
 
+  .home__img-99 img {
+    width: 40px;
+  }
 
   .home__perfil {
     grid-column: 2 / 3;
@@ -1747,8 +1752,6 @@ li.description-3 b {
     margin-top: 0;
     align-self: flex-start;
     /* margin-top: 4rem; */
-    flex-direction: column;
-    align-items: flex-start;
     flex-direction: column;
     display: flex;
   }
