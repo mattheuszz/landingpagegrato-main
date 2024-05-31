@@ -1754,8 +1754,8 @@ li.description-3 b {
     grid-template-columns: repeat(2, 468px);
     gap: 2rem 4rem;
     align-items: center;
-    padding-block: 7.5rem;
-    padding-top: 15rem;
+    /* padding-block: 13.5rem;  */
+    /* padding-top: 15rem; */
     z-index: 7;
     position: relative;
     /* z-index: 3; */

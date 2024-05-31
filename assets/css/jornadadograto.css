@@ -320,6 +320,11 @@ a {
   padding-top: 8rem;
 }
 
+.home__container-4 {
+  padding-top: 8rem;
+  flex-direction: column;
+}
+
 .home__name {
   font-size: 30px;
   text-align: center;
@@ -1005,6 +1010,7 @@ li.description-3 b {
   transform: scaleX(-1);
 }
 
+
 .footer {
   background-color: #5C5CFF;
   position: relative;
@@ -1276,6 +1282,7 @@ li.description-3 b {
 
   .home__container,
   .home__container-2,
+  .home__container-4,
   .about__container,
   .projects__container {
     grid-template-columns: 350px;
@@ -1575,6 +1582,20 @@ li.description-3 b {
     position: relative;
     /* z-index: 3; */
   }
+
+
+  .home__container-4 {
+    grid-template-columns: repeat(2, 468px);
+    gap: 2rem 4rem;
+    align-items: center;
+    padding-block: 7.5rem;
+    flex-direction: column;
+    /* padding-top: 15rem; */
+    z-index: 7;
+    position: relative;
+    /* z-index: 3; */
+  }
+
 
   .home__perfil {
     grid-column: 2 / 3;
