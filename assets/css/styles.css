@@ -1729,6 +1729,10 @@ li.description-3 b {
     text-align: center;     /* Adicione esta linha */
   }
 
+  .texto-vermelho b {
+    margin-left: 5px;
+  }
+
   .change-theme {
     color: var(--text-color);
   }
