@@ -200,6 +200,16 @@ a {
   /* animação scroll reveal */
 }
 
+.topic {
+  margin-bottom: 20px;
+  align-content: center;
+  align-items: center;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px; 
+}
+
 
 
 /* Navegação para dispositivos móveis */
@@ -215,6 +225,16 @@ a {
     text-align: center;
     backdrop-filter: blur(10px);
     transition: top .4s;
+  }
+
+  .topic {
+    margin-bottom: 20px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px; 
   }
 
   #instagram {
