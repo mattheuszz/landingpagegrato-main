@@ -1025,9 +1025,6 @@ li.description-3 b {
 }
 
 
-/* PERGUTNAS FREQUENTES*/
-
-
 /*add this class when click*/
 .question p.show{
   max-height: 200px; 
@@ -1079,6 +1076,71 @@ li.description-3 b {
       justify-content: center;
       display: flex;
   }
+
+  .home__container-7 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 30px 30px;
+  }
+
+  .box__roxo {
+      background-color: #6C63FF; /* Cor roxa */
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px; /* Ajuste conforme necessário */
+      margin: 0 auto;
+  }
+
+  .box__roxo p {
+      font-size: 16px; /* Ajuste conforme necessário */
+      line-height: 1.5;
+      color: #fff; /* Cor do texto branco */
+  }
+
+  .box__branco {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      text-align: center;
+  }
+
+  .box__branco h5,
+  .box__branco h1,
+  .box__branco h4 {
+      margin-bottom: 10px;
+      color: #000; /* Cor do texto preto */
+  }
+
+  /* Garantir que o tamanho do texto seja consistente */
+  .box__roxo p,
+  .box__branco h5,
+  .box__branco h1,
+  .box__branco h4 {
+      font-family: Arial, sans-serif; /* Fonte consistente */
+  }
+
+  .box__branco h5 {
+      font-size: 16px; /* Ajuste conforme necessário */
+  }
+
+  .box__branco h1 {
+      font-size: 24px; /* Ajuste conforme necessário */
+      font-weight: bold;
+  }
+
+  .box__branco h4 {
+      font-size: 14px; /* Ajuste conforme necessário */
+  }
+
+  /* Ajuste de largura para garantir alinhamento */
+  .box__roxo, .box__branco {
+      width: 100%; /* Ambos ocupam a mesma largura */
+      max-width: 400px; /* Ajuste conforme necessário */
+  }
+
 }
 
 .footer__copy {
@@ -1399,6 +1461,7 @@ li.description-3 b {
     justify-content: center;
   }
 
+  
   .shape-plus {
     right: 67rem;
     position: absolute;
@@ -1453,6 +1516,21 @@ li.description-3 b {
 @media screen and (min-width: 1150px) {
   .container {
     margin-inline: auto;
+  }
+
+  .home__container-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .box__roxo {
+      /* Adicione os estilos específicos para telas maiores aqui */
+  }
+
+  .box__branco {
+      /* Adicione os estilos específicos para telas maiores aqui */
   }
 
   .section__title-1::after,
@@ -1589,6 +1667,18 @@ li.description-3 b {
     position: relative;
     /* z-index: 3; */
   }
+
+  .home__container-7 {
+    grid-template-columns: repeat(2, 468px);
+    gap: 2rem 4rem;
+    align-items: center;
+    /* padding-block: 7.5rem; */
+    z-index: 7;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
 
 
   .home__container-4 {
