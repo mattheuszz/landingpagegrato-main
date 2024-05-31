@@ -232,14 +232,68 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+}
 
   .box__roxo {
-      /* Adicione os estilos específicos para telas maiores aqui */
+      background-color: #6C63FF; /* Cor roxa */
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px; /* Ajuste conforme necessário */
+      margin: 0 auto;
+  }
+
+  .box__roxo p {
+      font-size: 16px; /* Ajuste conforme necessário */
+      line-height: 1.5;
+      color: #fff; /* Cor do texto branco */
   }
 
   .box__branco {
-      /* Adicione os estilos específicos para telas maiores aqui */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .box__branco h5,
+  .box__branco h1,
+  .box__branco h4 {
+      margin-bottom: 10px;
+      color: #000; /* Cor do texto preto */
+  }
+
+  /* Garantir que o tamanho do texto seja consistente */
+  .box__roxo p,
+  .box__branco h5,
+  .box__branco h1,
+  .box__branco h4 {
+      font-family: Arial, sans-serif; /* Fonte consistente */
+  }
+
+  .box__branco h5 {
+      font-size: 16px; /* Ajuste conforme necessário */
+  }
+
+  .box__branco h1 {
+      font-size: 50px; /* Ajuste conforme necessário */
+      font-weight: bold;
+  }
+
+  .box__branco h4 {
+      font-size: 14px; /* Ajuste conforme necessário */
+      font-weight: 500;
+  }
+
+  /* Ajuste de largura para garantir alinhamento */
+  .box__roxo, .box__branco {
+      width: 100%; /* Ambos ocupam a mesma largura */
+      max-width: 400px; /* Ajuste conforme necessário */
   }
 
   .topic {
@@ -382,11 +436,6 @@ a {
   align-items: center;
   position: relative;
 }
-
-
-
-
-
 
 .home__name {
   font-size: 30px;
