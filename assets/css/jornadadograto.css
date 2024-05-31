@@ -315,15 +315,6 @@ a {
 
 /*=============== Inicio ===============*/
 
-#inicio2 {
-  background-image: url('assets/imgs/bg.png'); /* Substitua pelo caminho da sua imagem */
-  background-size: cover; /* Faz a imagem cobrir toda a seção */
-  background-position: center; /* Centraliza a imagem de fundo */
-  background-repeat: no-repeat; /* Evita a repetição da imagem */
-  padding: 50px 0; /* Ajuste o padding conforme necessário */
-  color: #fff; /* Ajuste a cor do texto se necessário para garantir a legibilidade */
-}
-
 .home__container,
 .home__container-2 {
   padding-top: 8rem;
