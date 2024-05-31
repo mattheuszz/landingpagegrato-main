@@ -292,7 +292,6 @@ img {
 .preco-rosa p {
   margin: 0;
   font-size: 1.25rem;
-  font-size: 10px;
   color: #ff69b4; /* Cor rosa, ajuste conforme necessário */
 }
 
@@ -300,6 +299,7 @@ img {
 .preco-rosa {
   color: #F29698;
   width: 40%;
+  font-weight: bolder;
 }
 
 
