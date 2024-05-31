@@ -1570,7 +1570,7 @@ li.description-3 b {
     gap: 2rem 4rem;
     align-items: center;
     padding-block: 7.5rem;
-    padding-top: 15rem;
+    /* padding-top: 15rem; */
     z-index: 7;
     position: relative;
     /* z-index: 3; */
