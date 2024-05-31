@@ -92,9 +92,6 @@
   }
 }
 
-.topic-1 img, .topic-2 img, .topic-3 img {
-  max-width: 80px;
-}
 
 /*=============== Base ===============*/
 * {
@@ -1160,6 +1157,10 @@ li.description-3 b {
       max-width: 400px; /* Ajuste conforme necessário */
   }
 
+}
+
+.topic-1 img, .topic-2 img, .topic-3 img {
+  max-width: 80px;
 }
 
 .footer__copy {
