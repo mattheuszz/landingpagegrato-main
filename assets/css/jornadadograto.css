@@ -260,6 +260,10 @@ a {
   left: -4rem;
 }
 
+.topic-1 img, .topic-2 img, .topic-3 img {
+  max-width: 80px;
+}
+
 .nav__name::before {
   left: initial;
   right: -4rem;
@@ -1159,10 +1163,6 @@ li.description-3 b {
 
 }
 
-.topic-1 img, .topic-2 img, .topic-3 img {
-  max-width: 80px;
-}
-
 .footer__copy {
   color: var(--text-color-light);
   font-size: var(--small-font-size);
@@ -1746,6 +1746,11 @@ li.description-3 b {
   .home__info {
     margin-top: 0;
     align-self: flex-start;
+    /* margin-top: 4rem; */
+    flex-direction: column;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
   }
 
   .home__image,
