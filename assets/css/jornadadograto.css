@@ -1063,7 +1063,7 @@ li.description-3 b {
 .home__info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .topic {
