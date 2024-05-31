@@ -148,6 +148,7 @@ a {
   z-index: 99999;
 }
 
+
 .purple-shape {
   position: absolute;
   right: 0rem;
@@ -928,6 +929,10 @@ li.description-3 {
 
 li.description-3 b {
   padding: 10px;
+}
+
+#instagram {
+  background-color: #F1F0F5;
 }
 
 .contact__description-2 {

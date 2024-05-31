@@ -203,6 +203,10 @@ a {
     backdrop-filter: blur(10px);
     transition: top .4s;
   }
+
+  #instagram {
+    background-color: #F1F0F5;
+  }
 }
 
 .nav__title,
@@ -387,8 +391,7 @@ font-size: 20px;
 }
 
 #instagram {
-  margin-bottom: 4rem;
-  background-color: #fff;
+  background-color: #F1F0F5;
 }
 
 .home__arrow,
@@ -1752,6 +1755,18 @@ li.description-3 b {
     color: var(--text-color);
     font-size: var(--smaller-font-size);
     font-weight: var(font-);
+  }
+
+  .home__container,
+  .home__container-2 {
+    grid-template-columns: repeat(2, 468px);
+    gap: 2rem 4rem;
+    align-items: center;
+    /* padding-block: 13.5rem;  */
+    /* padding-top: 15rem; */
+    z-index: 7;
+    position: relative;
+    /* z-index: 3; */
   }
 
   .home__scroll-box i {
