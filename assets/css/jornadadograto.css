@@ -1166,6 +1166,7 @@ li.description-3 b {
   align-items: center;
 }
 
+
 .box__branco h5,
 .box__branco h1,
 .box__branco h4 {
@@ -1186,12 +1187,13 @@ li.description-3 b {
 }
 
 .box__branco h1 {
-    font-size: 24px; /* Ajuste conforme necessário */
+    font-size: 50px; /* Ajuste conforme necessário */
     font-weight: bold;
 }
 
 .box__branco h4 {
     font-size: 14px; /* Ajuste conforme necessário */
+    font-weight: 500;
 }
 
 /* Ajuste de largura para garantir alinhamento */
